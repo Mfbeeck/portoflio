@@ -1,0 +1,423 @@
+  h1 {
+  	font-size: 3em;
+  	font-family: "Futura";
+  	color: black; 
+  }
+
+  	p {
+  		margin-left: 100px;
+  		font-family: "Futura";
+  		color: black;
+  	}
+
+    .more p {
+      width: 70vw;
+    }
+
+  	.matias{
+  		margin-top: 50px;
+  		margin-left: 0px;
+  		text-align: center;
+  		font-size: 7em;
+      color: rgba (0, 0, 0, 1);
+  		font-weight: bold;
+  		font-family: "Futura";
+      background-image: none;
+  	}
+
+  	.matias:hover {
+  	background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
+    color: white;
+		border-radius: 3px;
+  	}
+
+  	.to-top{
+  		font-family: "Futura";
+  		background-color: black;
+  		padding-left: 5px;
+  		padding-top: 5px;
+  		padding-right: 20px;
+  		padding-bottom: 5px;
+  		text-decoration: none;
+  		border-radius: 2px;
+  		color: white;
+  		text-align: center;
+  		position: fixed;
+  		margin-top: -10px;
+  		margin-left: 0px;
+  		opacity: .7;
+  		z-index: 1;
+  	}
+
+  	.to-top:hover{
+  		background-color: #3D7294;
+      opacity: .8;
+  		color: white;
+  	}
+
+
+
+   /* This CSS is used for the Show/Hide functionality. */
+   
+
+   #aboutme-hide {
+   	opacity: .8; 
+   	color: #3D7294;
+   	padding: 10px;
+   }
+
+   #aboutme-hide:hover{
+   	color: gray;
+   }
+   .more {
+      display: none;
+/*      border-top: 1px solid #666;
+*/      width: 1020px;
+      }
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      color: black;
+      padding-left: 10px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      opacity: .5;
+       }
+
+   #project-hide {
+   	opacity: .8; 
+   	color: #3D7294;
+   	padding: 10px;
+   }
+
+   #project-hide:hover{
+   	color: gray;
+   }
+
+ #skill-hide {
+   	opacity: .8; 
+   	color: #3D7294;
+   	padding: 10px;
+   }
+
+   #skill-hide:hover{
+   	color: gray;
+   }
+   
+    #contactme-hide {
+   	opacity: .8; 
+   	color: #3D7294;
+   	padding: 10px;
+   }
+
+   #contactme-hide:hover{
+   	color: gray;
+   }
+
+#buttons{	
+	text-align: center;
+	margin-left: -10px;
+	padding-bottom: 40px;
+}
+
+#skillsbutton{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+#projectsbutton{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#aboutme-show{
+  padding-top: 34px;
+  padding-bottom:44px;
+}
+
+#project-show{
+  padding-top: 34px;
+  padding-bottom:44px;
+}
+
+#skill-show{
+  padding-top: 33px;
+  padding-bottom:44px;
+}
+
+#contactme-show{
+  padding-top: 34px;
+  padding-bottom:44px;
+}
+
+
+.button {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: white;
+  font-family: "Futura";
+  font-size: 2em;
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+.button:before{
+	pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: black transparent transparent transparent;
+}
+
+
+.button:hover:before, .button:focus:before, .button:active:before {
+	  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.button:hover{
+	margin-top: 4px;
+	color: white;
+	font-weight: bold;
+  	background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg")
+}
+
+.bar-container{
+	margin-bottom: -40px;
+  width: 100vw;
+}
+
+.wrap {
+  width: 30em;
+  margin: -5px;
+  padding: 1em;
+  padding-left: 70px;
+  padding-top: 0px;
+  padding-right: 54vw;
+  background-color: white;
+  border-top: dashed gray 2px;
+  border-bottom: dashed gray 2px;
+   }
+
+.wrap4 {
+  width: 30em;
+  margin: -5px;
+  padding: 1em;
+  padding-left: 70px;
+  padding-top: 0px;
+  padding-right: 54vw;
+  background-color: white;
+  border-top: dashed gray 2px;
+   } 
+
+.skills-text1 {
+      font-size: 1.3em;
+    }
+
+
+#html-im {
+  width: 10vw;
+  height: 20vh;
+  margin-left: 12vw;
+  border-radius: 2px:;
+} 
+
+#css-im{
+
+  width: 7.5vw;
+  height: 20.8vh;
+  border-radius: 2px:;
+}
+
+#git-im{
+  width: 7.5vw;
+  height: 20vh;
+  border-radius: 2px:;
+}
+
+#js-im{
+  width: 9.5vw;
+  height: 19vh;
+  border-radius: 2px:;
+}
+
+#ruby-im{
+
+  width: 7.5vw;
+  height: 20vh;
+  border-radius: 2px:;
+}
+
+#stata-im {
+  width: 8.5vw;
+  height: 18vh;
+  margin-left: 12.9vw;
+  border-radius: 2px:;
+} 
+
+#minitab-im{
+
+  width: 9vw;
+  height: 18vh;
+  border-radius: 2px:;
+}
+
+#R-im{
+
+  width: 8vw;
+  height: 17vh;
+  border-radius: 2px:;
+}
+
+#lang-images p{
+  margin-left: 150px;
+  font-size: 1.1em;
+}
+
+#english-im {
+  width: 11vw;
+  height: 22vh;
+  margin-left: 11.5vw;
+  border-radius: 2px:;
+} 
+
+#spanish-im{
+
+  width: 10.5vw;
+  height: 22vh;
+  border-radius: 2px:;
+}
+
+#portuguese-im{
+
+  width: 10.7vw;
+  height: 22.2vh;
+  border-radius: 2px:;
+}
+
+#english
+{
+  margin-left: 150px;
+  margin-right: 740px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0,0,0,.9);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+span#2:hover{
+  color:white;
+}
+
+#english:hover {
+  color:white;
+
+}
+
+#english span{
+  margin-left: 50px;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Futura";
+  font-size: 1em;
+  font-weight: bold;
+  opacity: .9;
+}
+
+
+
+footer p {
+padding-top: 5px;
+	width: 100vw;
+	height: 5vh;
+	font-size: 1.3vw;
+  margin-left: 15px;
+	color: white;
+}
+
+.footer-elements{
+	display: table;
+	background: rgba(0, 0, 0, .7);
+  color: rgba (255, 255, 255, .7);
+	border-top: solid black 2px;
+	margin-left: -1vw;
+	padding-left: 3vw;
+	padding-right: 800px;
+	padding-bottom: 1.5vh;
+	padding-top: 1vh;
+	position: absolute;
+	display: table;
+
+}
+
+.footer-elements p {
+	display: table-cell;
+	vertical-align: middle;
+	margin-bottom: 10px;
+
+}
+
+#linkedin {
+	background: rgba(0, 0, 0, 0);
+	padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+	border-radius: 5px;
+	height: 30px;
+	width: 30px;
+  margin-bottom: .8vh;
+	}
+
+#blogspot {
+background: rgba(0, 0, 0, 0);
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 2px;
+padding-right: 2px;
+border-radius: 5px;
+height: 30px;
+width: 30px;
+margin-bottom: .8vh;
+margin-right: 2vw
+} 
+
+.link-images{
+	display: inline;
+	position: absolute;
+  bottom: 0;
+  right: 0;
+}	
+
+.linkedin img:hover{
+	border: solid white 1px;
+}
+
+
+
+
+

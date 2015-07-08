@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Matias Beeck</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matias Beeck's Portfolio Site">
+    <meta name="author" content="Matias Beeck">
+
+    <!-- Le styles -->
+    <link href="matias-alternate-design.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="http://www.clipartbest.com/cliparts/RTA/yBA/RTAyBAbyc.png" /> 
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <script type="text/javascript">
+    function showHide(shID) {
+      if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+       document.getElementById(shID+'-show').style.display = 'none';
+       document.getElementById(shID).style.display = 'block';
+        }
+     else {
+       document.getElementById(shID+'-show').style.display = 'inline';
+       document.getElementById(shID).style.display = 'none';
+          }
+        }
+      }
+    function ScrollToAbout() {
+        window.location.href='#about'
+        } 
+    function ScrollToProject() {
+        window.location.href='#projects'
+        }
+    function ScrollToSkills() {
+        window.location.href='#skills'
+        }
+    function ScrollToContact() {
+        window.location.href='#contact'
+        }
+    function ClickAbout(){
+
+    ScrollToAbout();
+    showHide('aboutme');
+    return false;
+        }
+</script>
+    
+    </script>
+  
+  <!--   // $(function() {
+    //     $("a").onclick, function() {
+    //       $("html, body").animate({"scrollTop":$("#a2").offset().top}, 4000);
+    //       return false;    
+    //   });
+
+    // });
+
+    // </script> -->
+    <script type="text/javascript">
+    // $(function() {
+    //     $("a").onclick, function() {
+    //       $("html, body").animate({"scrollTop":$("#a2").offset().top}, 4000);
+    //       return false;    
+    //   });
+
+    // });
+
+    </script>
+    <script type="text/javascript">
+    var scrollY = 0;
+    var distance = 20;
+    var speed = 3000;
+    function autoScrollTo(el){
+      var currentY = window.pageYOffset;
+      var targetY = document.getElementById(el).offsetTop;
+      var bodyHeight = document.body.offsetHeight;
+      var yPos = currentY + window.innerHeight;
+      var animator = setTimeout('autoScrollTo(\' '+el+'\')',speed);
+      if(yPos > bodyHeight){
+        clearTimeout(animator);
+      } else{
+        if(currentY < targetY-distance){
+          scrollY = currentY+distance;
+          window.scroll(0,scrollY);
+        } else {
+          clearTimeout(animator);
+        }
+      }
+    }
+
+    </script>
+
+  </head>
+ 
+  <body class = "1">  
+  <div id = "wrapper">
+  <a class="to-top" href="">Top</a>
+  <br>
+  <h1 class = "matias">Matías Beeck</h1>
+  <br>
+
+<div id="buttons">
+  <!-- want to put space under each individual button -->
+  <a class="button" href="#about"; onclick="showHide('aboutme'); ScrollToAbout(); return false;";>About Me</a>
+  <!-- need to learn how to activate scrollTo function for javascript or jquery as well -->
+  &nbsp; &nbsp;
+  <a class="button" id="projectsbutton" href="#projects"; onclick="showHide('project'); ScrollToProject(); return false;";>Projects</a> &nbsp;
+  &nbsp; &nbsp;
+  <a class="button" id="skillsbutton" href="#skills"; onclick="showHide('skill'); ScrollToSkills(); return false;">Skills</a>
+  &nbsp; &nbsp;
+  <a class="button" href="#contact"; onclick="showHide('contactme'); ScrollToContact();return false;">Contact Me</a>
+</div>
+
+<!-- onclick="showHide('aboutme');return false;"
+ -->
+<!-- </body>
+ -->
+&nbsp;
+<br>
+<br>
+<br>
+<br>
+<div id="about"></div>
+<br>
+
+<!-- <body class="2">
+ --> 
+<!-- <a href="#" onclick="return false;" onmousedown="autoScrollTo('a2');">hello</a>
+ -->
+<div class ="bar-container"> 
+<a name="about"></a>
+<div class="wrap">
+      <h1><a href="#" id="aboutme-show" class="showLink" onclick="showHide('aboutme');return false;">About Me</a></h1>
+      <div id="aboutme" class="more">
+
+        <h1><a href="#" id="aboutme-hide" class="hideLink" onclick="showHide('aboutme');return false;">About Me:</a></h1>
+         <p class="text1">My name is Matias Beeck. I am a Developer based in Miami, Florida.
+          <br>
+          Cities fall but they are rebuilt. heroes die but they are remembered. let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. cities fall but they are rebuilt. heroes die but they are remembered. multiply your anger by about a hundred, kate, that's how much he thinks he loves you. no, this is mount everest. you should flip on the discovery channel from time to time. but i guess you can't now, being dead and all. i don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. well, what is it today? more spelunking? cities fall but they are rebuilt. heroes die but they are remembered. i now issue a new commandment: thou shalt do the dance. boxing is about respect. getting it for yourself, and taking it away from the other guy. boxing is about respect. getting it for yourself, and taking it away from the other guy.
+          Circumstances have taught me that a man's ethics are the only possessions he will take beyond the grave. that tall drink of water with the silver spoon up his ass. bruce... i'm god. bruce... i'm god. the man likes to play chess; let's get him some rocks. it only took me six days. same time it took the lord to make the world. boxing is about respect. getting it for yourself, and taking it away from the other guy. cities fall but they are rebuilt. heroes die but they are remembered. rehabilitated? well, now let me see. you know, i don't have any idea what that means. cities fall but they are rebuilt. heroes die but they are remembered. it only took me six days. same time it took the lord to make the world. mister wayne, if you don't want to tell me exactly what you're doing, when i'm asked, i don't have to lie. but don't think of me as an idiot.
+          </p>
+         <p><a href="#" id="aboutme-hide" class="hideLink" onclick="showHide('aboutme');return false;">Hide</a></p>
+      </div>
+   <div id="projects"></div>
+   </div>
+
+ <div class="wrap">
+      <h1><a href="#" id="project-show" class="showLink" onclick="showHide('project');return false;">Projects</a></h1>
+      <div id="project" class="more">
+        <h1><a href="#" id="project-hide" class="hideLink" onclick="showHide('project');return false;">Projects:</a></h1>
+         <p>PROJECTs 
+           Cities fall but they are rebuilt. heroes die but they are remembered. let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. cities fall but they are rebuilt. heroes die but they are remembered. multiply your anger by about a hundred, kate, that's how much he thinks he loves you. no, this is mount everest. you should flip on the discovery channel from time to time. but i guess you can't now, being dead and all. i don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. well, what is it today? more spelunking? cities fall but they are rebuilt. heroes die but they are remembered. i now issue a new commandment: thou shalt do the dance. boxing is about respect. getting it for yourself, and taking it away from the other guy. boxing is about respect. getting it for yourself, and taking it away from the other guy.
+          Circumstances have taught me that a man's ethics are the only possessions he will take beyond the grave. that tall drink of water with the silver spoon up his ass. bruce... i'm god. bruce... i'm god. the man likes to play chess; let's get him some rocks. it only took me six days. same time it took the lord to make the world. boxing is about respect. getting it for yourself, and taking it away from the other guy. cities fall but they are rebuilt. heroes die but they are remembered. rehabilitated? well, now let me see. you know, i don't have any idea what that means. cities fall but they are rebuilt. heroes die but they are remembered. it only took me six days. same time it took the lord to make the world. mister wayne, if you don't want to tell me exactly what you're doing, when i'm asked, i don't have to lie. but don't think of me as an idiot.
+         </p>
+         <p><a href="#" id="project-hide" class="hideLink" onclick="showHide('project');return false;">Hide</a></p>
+      </div>
+   <div id="skills"></div>
+   </div>
+
+
+ <div class="wrap">
+      <h1><a href="#" id="skill-show" class="showLink" onclick="showHide('skill');return false;">Skills</a></h1>
+      <div id="skill" class="more">
+        <h1><a href="#" id="skill-hide" class="hideLink" onclick="showHide('skill');return false;">Skills:</a></h1>
+         <p class="skills-text1">Programming Tools:</p>
+            <div id="skills-images">
+            <img id="html-im" src="html5.png"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <img id="css-im" src="css.png"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <img id="js-im" src="js.png"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp; 
+            <img id="git-im" src="github(clear).svg"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp;            
+            <img id="ruby-im" src="Ruby-logo2.png"></img>
+            </div>
+         <p class="skills-text1">Statistical Software:</p>
+            <div id="stats-images">
+            <img id="stata-im" src="stata13.png"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <img id="minitab-im" src="minitab.png"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <img id="R-im" src="RStudio-Ball.png"></img>
+            </div>
+         <p class="skills-text1">Languages:</p>  
+           <!--  <div id="english">
+            <span id="1">English</span>
+            <br>
+            <br>
+            <span id="2">Native</span>
+            </div>  -->
+            <div id="lang-images">
+            <p>English(Native), Spanish(Native), Portuguese(Elementary Proficiency)</p>
+            <!-- <img id="english-im" src="english.png"></img>
+            &nbsp; &nbsp;&nbsp;
+            <img id="spanish-im" src="spanish.jpg"></img>
+            &nbsp; &nbsp;&nbsp; &nbsp; 
+            <img id="portuguese-im" src="portuguese.png"></img> -->
+            </div>
+         <p><a href="#" id="skill-hide" class="hideLink" onclick="showHide('skill');return false;">Hide</a></p>
+      </div>
+   <div id="contact"></div>
+   </div>
+
+ <div class="wrap4">
+      <h1><a href="#" id="contactme-show" class="showLink" onclick="showHide('contactme');return false;">Contact Me</a></h1>
+      <div id="contactme" class="more">
+        <h1><a href="#" id="contactme-hide" class="hideLink" onclick="showHide('contactme');return false;">Contact Me:</a></h1>
+         <p>Please feel free to contact me if you have any questions or comments.</p>
+         <p>Email: <a href="mailto:mfb54@georgetown.edu">mfb54@georgetown.edu</a></p>
+        <!--  <p>Phone: <a href="tel:305-322-0802">305-322-0802</a></p> -->
+         <p><a href="#" id="contactme-hide" class="hideLink" onclick="showHide('contactme');return false;">Hide</a></p>
+      </div>
+   </div>
+
+ </div>
+
+&nbsp;
+<br>
+<br>
+<footer>
+  <div class = "footer-elements">
+  <p>Designed by: Matias Beeck</p>
+  <div class ="link-images">
+  <a class="linkedin" href="https://www.linkedin.com/pub/matias-beeck/a4/4a5/b92" target="_blank"><img id="linkedin" src="linkedin-pic.png"></a> 
+  <a class="linkedin" href="https://www.linkedin.com/pub/matias-beeck/a4/4a5/b92" target="_blank"><img id="blogspot" src="Blogger_logo-2.png"></a> 
+  </div>
+</div>
+
+<div id="a2"></div>
+<!-- <a href="#" onclick="return false;" onmousedown="resetScroller('wrapper');">totop</a> -->
+
+
+</footer>
+
+</body>
+
+</html>
