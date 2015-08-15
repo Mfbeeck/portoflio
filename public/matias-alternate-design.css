@@ -11,7 +11,7 @@
   	}
 
     .more p {
-      width: 70vw;
+      width: 800px;
     }
 
   	.matias{
@@ -29,6 +29,82 @@
 		border-radius: 3px;
 /*    background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
 */  	}
+
+    #projects{
+      width: 100%;
+    }
+
+    .projects-links{
+      width: 1000px;
+    }
+
+
+    .parlay:hover {
+      opacity: .8;
+    }
+
+    .parlay{
+      margin-top: 70px;
+      margin-left: 70px;
+    }
+
+    .parlaydiv{
+      display: inline-block;
+    }
+
+    .parlaysource{
+      margin-left: 240px;
+      text-decoration: none;
+      font-family: "Futura";
+      color: black;
+    }
+
+    .parlaysource:hover{
+      opacity: .7;
+    }
+
+    .parlay img{
+      width: 400px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .instadiv {
+      display: inline-block;
+      margin-left: 30px;
+    }
+
+    .github-link{
+      color: #638DAA;
+      text-decoration: none;
+    }
+
+    .instasource{
+      text-decoration: none;
+      font-family: "Futura";
+      color: black;
+      margin-left: 150px;
+    }
+
+     .instasource:hover{
+      opacity: .7;
+    }
+
+    .instadiv span{
+      font-family: 'Gill Sans', arial, sans-serif;
+      color: black;
+      font-size: 65px;
+    }
+
+    .instadiv span:hover{
+      opacity: .7;
+    }
+
+    .instadiv a{
+      text-decoration: none;
+
+
+    }
 
   	.to-top{
   		font-family: "Futura";
@@ -213,7 +289,7 @@
 }
 
 .wrap {
-  width: 70%;
+  width: 535px;
   margin: -5px;
   padding: 1em;
   padding-left: 70px;
@@ -225,7 +301,7 @@
    }
 
 .wrap4 {
-  width: 42%;
+  width: 535px;
   margin: -5px;
   padding: 1em;
   padding-left: 70px;
