@@ -235,16 +235,15 @@
   border-top: dashed gray 2px;
    } 
 
-.skills-text1 {
-      font-size: 1.3em;
-    }
-
 .skills-images im {
       margin-left: -60px
     }
 
+.sk-im{
+  margin-left: 115px;
+}   
+
 #html-im {
-  margin-left: 130px;
   height: 80px;
   border-radius: 2px;
   margin-bottom: 9px;
@@ -284,7 +283,6 @@
 
 #stata-im {
   height: 90px;
-  margin-left: 135px;
   border-radius: 2px;
     margin-bottom: 8px;
 
@@ -312,8 +310,8 @@
 }
 
 #lang-images p{
-  margin-left: 150px;
-  font-size: 1.1em;
+  font-size: .9em;
+  margin-left: 120px;
 }
 
 #english-im {

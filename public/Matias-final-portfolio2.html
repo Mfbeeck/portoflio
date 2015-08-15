@@ -138,7 +138,7 @@
       <div id="aboutme" class="more">
 
         <h1><a href="#" id="aboutme-hide" class="hideLink" onclick="showHide('aboutme');return false;">About Me:</a></h1>
-         <p class="text1">Hello, my name is Matias Beeck. I am a Web Developer from Miami, Florida. In May 2015 I graduated from Georgetown University in DC with degrees in Mathematics and Economics and began coding a month later in June. Please have a look around to see the projects I've worked on this summer. If you would like to contact me, <a href = "#contact"> click here</a>.
+         <p class="text1">Hello, my name is Matias Beeck. I am a Web Developer from Miami, Florida. In May 2015 I graduated from Georgetown University in DC with degrees in Mathematics and Economics and began coding a month later in June. Please have a look around to see the projects I've worked on this summer. If you would like to contact me, <a href = "#contact"; onclick="showHide('contactme'); ScrollToContact();return false;"> click here</a>.
          <p><a href="#" id="aboutme-hide" class="hideLink" onclick="showHide('aboutme');return false;">Hide</a></p>
       </div>
    <div id="projects"></div>
@@ -163,15 +163,20 @@
       <div id="skill" class="more">
         <h1><a href="#" id="skill-hide" class="hideLink" onclick="showHide('skill');return false;">Skills:</a></h1>
          <p class="skills-text1">Programming Tools:</p>
+         <div class = "sk-im">
             <img id="html-im" src="html5.png"></img>
             <img id="css-im" src="CSS.png"></img>
             <img id="js-im" src="js.png"></img>
             <img id="git-im" src="Rails.png"></img>
             <img id="ruby-im" src="Ruby-logo2.png"></img>
+        </div>
          <p class="skills-text1">Statistical Software:</p>
+        <div class = "sk-im">
+
             <img id="stata-im" src="stata13.png"></img>
             <img id="minitab-im" src="minitab.png"></img>
             <img id="R-im" src="RStudio-Ball.png"></img>
+        </div>
          <p class="skills-text1">Languages:</p>  
            <!--  <div id="english">
             <span id="1">English</span>
