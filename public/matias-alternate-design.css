@@ -15,14 +15,14 @@
     }
 
   	.matias{
-  		margin-top: 50px;
-  		margin-left: 0px;
-  		text-align: center;
-  		font-size: 7em;
-      color: rgba (0, 0, 0, 1);
-  		font-weight: bold;
-  		font-family: "Futura";
+      font-family: "Futura";
+      font-size: 7em;
+      font-weight: bold;
+      margin-left: 0px;
+      margin-top: 50px;
+      text-align: center;
       background-image: none;
+      color: rgba (0, 0, 0, 1);
   	}
 
   	.matias:hover {
