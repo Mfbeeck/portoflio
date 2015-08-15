@@ -26,15 +26,9 @@
   	}
 
   	.matias:hover {
-    color: white;
 		border-radius: 3px;
-    background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-
-  	}
+/*    background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
+*/  	}
 
   	.to-top{
   		font-family: "Futura";
@@ -79,9 +73,8 @@
 
    .more {
       display: none;
-/*      border-top: 1px solid #666;
-*/      width: 400px;
       }
+
    a.showLink, a.hideLink {
       text-decoration: none;
       color: black;
@@ -207,11 +200,11 @@
 }
 
 .button:hover{
-	margin-top: 4px;
-	color: white;
+	margin-top: 0px;
+  background: #FCF8FC;
 	font-weight: bold;
-  background-image: url("Flat-Ocean.jpeg")
-
+/*  background-image: url("Flat-Ocean.jpeg")
+*/
 }
 
 .bar-container{
@@ -220,7 +213,7 @@
 }
 
 .wrap {
-  width: 42%;
+  width: 70%;
   margin: -5px;
   padding: 1em;
   padding-left: 70px;
@@ -246,59 +239,76 @@
       font-size: 1.3em;
     }
 
+.skills-images im {
+      margin-left: -60px
+    }
 
 #html-im {
-  width: 10vw;
-  height: 20vh;
-  margin-left: 12vw;
-  border-radius: 2px:;
+  margin-left: 130px;
+  height: 80px;
+  border-radius: 2px;
+  margin-bottom: 9px;
+
+
 } 
 
 #css-im{
+  height: 83px;
+  border-radius: 2px;
+  margin-bottom: 8px;
 
-  width: 7.5vw;
-  height: 20.8vh;
-  border-radius: 2px:;
+
 }
 
 #git-im{
-  width: 7.5vw;
-  height: 20vh;
-  border-radius: 2px:;
+  height: 95px;
+  border-radius: 2px;
+  margin-left: 5px;
+
 }
 
 #js-im{
-  width: 9.5vw;
-  height: 19vh;
-  border-radius: 2px:;
+  height: 80px;
+  margin-bottom: 7px;
+  margin-left: 6px;
+  border-radius: 2px;
+
 }
 
 #ruby-im{
+  height: 95px;
+  margin-left: 8px;
+  border-radius: 2px;
 
-  width: 7.5vw;
-  height: 20vh;
-  border-radius: 2px:;
 }
 
 #stata-im {
-  width: 8.5vw;
-  height: 18vh;
-  margin-left: 12.9vw;
-  border-radius: 2px:;
+  height: 90px;
+  margin-left: 135px;
+  border-radius: 2px;
+    margin-bottom: 8px;
+
+
 } 
 
 #minitab-im{
 
-  width: 9vw;
-  height: 18vh;
-  border-radius: 2px:;
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  margin-right: 40px
+  margin-top: 40px;
+
 }
 
 #R-im{
 
-  width: 8vw;
-  height: 17vh;
-  border-radius: 2px:;
+  width: 80px;
+  height: 80px;
+  margin-left: 2px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+
 }
 
 #lang-images p{
@@ -398,24 +408,22 @@ padding-top: 5px;
 }
 
 #linkedin {
-  position: relative;
 	background: rgba(0, 0, 0, 0);
 	padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 2px;
   padding-right: 2px;
-  margin-right: 50px;
+  margin-right: 93px;
 	border-radius: 5px;
 	height: 30px;
 	width: 30px;
-  margin-bottom: .8vh;
+  margin-bottom: 8.5px;
   margin-top: 10px;
   float: right;
 
 	}
 
 #blogspot {
-position: relative;
 margin-top: 10px;
 background: rgba(0, 0, 0, 0);
 padding-top: 2px;
@@ -423,18 +431,39 @@ padding-bottom: 2px;
 padding-left: 2px;
 padding-right: 2px;
 border-radius: 5px;
-margin-right: 10px;
+margin-right: 50px;
 height: 30px;
 width: 30px;
-margin-bottom: .8vh;
+margin-bottom: 4px;
 } 
 
-.link-images{
+.link-image1{
 	display: inline;
 	position: absolute;
   bottom: 0;
   right: 0;
 }	
+
+.link-image2{
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+} 
+
+.link-image3{
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  margin-right: 43px;
+  right: 0;
+  width: 10px;
+} 
+
+.footer-elements span{
+  margin-right: 20px;
+}
+
 
 .linkedin img:hover{
 	border: solid white 1px;
