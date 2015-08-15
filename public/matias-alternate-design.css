@@ -26,9 +26,14 @@
   	}
 
   	.matias:hover {
-  	background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
     color: white;
 		border-radius: 3px;
+    background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg");
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
   	}
 
   	.to-top{
@@ -53,6 +58,7 @@
   		background-color: #3D7294;
       opacity: .8;
   		color: white;
+      transition: .2s;
   	}
 
 
@@ -68,11 +74,13 @@
 
    #aboutme-hide:hover{
    	color: gray;
+
    }
+
    .more {
       display: none;
 /*      border-top: 1px solid #666;
-*/      width: 1020px;
+*/      width: 400px;
       }
    a.showLink, a.hideLink {
       text-decoration: none;
@@ -95,7 +103,7 @@
    	color: gray;
    }
 
- #skill-hide {
+  #skill-hide {
    	opacity: .8; 
    	color: #3D7294;
    	padding: 10px;
@@ -189,6 +197,7 @@
   bottom: 0;
   border-width: 10px 10px 0 10px;
   border-color: black transparent transparent transparent;
+  transition: .3s ease;
 }
 
 
@@ -201,7 +210,8 @@
 	margin-top: 4px;
 	color: white;
 	font-weight: bold;
-  	background-image: url("http://www.awesomeocean.com/wp-content/uploads/2014/09/Flat-Ocean.jpeg")
+  background-image: url("Flat-Ocean.jpeg")
+
 }
 
 .bar-container{
@@ -210,7 +220,7 @@
 }
 
 .wrap {
-  width: 30em;
+  width: 42%;
   margin: -5px;
   padding: 1em;
   padding-left: 70px;
@@ -222,7 +232,7 @@
    }
 
 .wrap4 {
-  width: 30em;
+  width: 42%;
   margin: -5px;
   padding: 1em;
   padding-left: 70px;
@@ -350,7 +360,7 @@ span#2:hover{
 
 
 
-footer p {
+/*footer p {
 padding-top: 5px;
 	width: 100vw;
 	height: 5vh;
@@ -358,7 +368,7 @@ padding-top: 5px;
   margin-left: 15px;
 	color: white;
 }
-
+*/
 .footer-elements{
 	display: table;
 	background: rgba(0, 0, 0, .7);
@@ -366,11 +376,12 @@ padding-top: 5px;
 	border-top: solid black 2px;
 	margin-left: -1vw;
 	padding-left: 3vw;
-	padding-right: 800px;
 	padding-bottom: 1.5vh;
-	padding-top: 1vh;
+	padding-top: 2vh;
 	position: absolute;
 	display: table;
+  width: 100%;
+  height: 30px;
 
 }
 
@@ -378,32 +389,44 @@ padding-top: 5px;
 	display: table-cell;
 	vertical-align: middle;
 	margin-bottom: 10px;
+  font-size: 15px;
+  margin-left: 15px;
+  padding-top: 0px;
+  color: white;
+  position: relative;
 
 }
 
 #linkedin {
+  position: relative;
 	background: rgba(0, 0, 0, 0);
 	padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 2px;
   padding-right: 2px;
+  margin-right: 50px;
 	border-radius: 5px;
 	height: 30px;
 	width: 30px;
   margin-bottom: .8vh;
+  margin-top: 10px;
+  float: right;
+
 	}
 
 #blogspot {
+position: relative;
+margin-top: 10px;
 background: rgba(0, 0, 0, 0);
 padding-top: 2px;
 padding-bottom: 2px;
 padding-left: 2px;
 padding-right: 2px;
 border-radius: 5px;
+margin-right: 10px;
 height: 30px;
 width: 30px;
 margin-bottom: .8vh;
-margin-right: 2vw
 } 
 
 .link-images{
